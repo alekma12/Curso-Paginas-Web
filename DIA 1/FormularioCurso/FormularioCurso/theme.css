@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --primary-color: #ec690b;
+  --secondary-color: #c3590d;
+}
+
+.custom-btn {
+  font-size: 20px;
+  width: 100%;
+  margin: 10px 0px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.5s;
+  /* box-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.323); */
+}
+
+.custom-btn:hover {
+  width: 100%;
+  background-color: var(--secondary-color);
+  transition: 0.5s;
+}
+
+.custom-input {
+  width: 100%;
+  font-size: 20px;
+  color: rgb(80, 80, 80);
+  outline: none;
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+label {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
+
+.container {
+  width: 40%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.323);
+  padding: 40px 60px;
+  border-radius: 3px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between
+}
+
+.w-100 {
+  width: 100%
+}
+.margin-top{
+  margin-top: 30px;
+}
+.margin-bottom{
+  margin-bottom: 50px;
+}
+/* div > input[placeholder="Nombre"]:focus {
+  color: red;
+} */

@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;      
+}
+
+.generalspan{
+    margin: 5px;
+}
+
+.generalinput {
+    outline: none;
+    margin: 5px;
+    padding: 3px;
+    width: 50%;
+    border-radius: 0px;
+    border: 1.5px solid #C0C0C0;
+    justify-content: right;
+} 
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.containerswars{
+    width: 40%;
+    background-color: red;
+    padding: 13px 5px;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.input-group-textm{
+    display: flex;
+    align-items: center;
+    padding: 0px 2px;
+}
+
+.submit-btn{
+    outline: none;
+    border: 0px;
+    margin: 5px;
+    padding: 3px;
+    width: 55.5%;
+    border-radius: 5px;
+    justify-content: right;
+    background-color: #25344e;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.submit-btn:hover{
+    background-color: #161f2e ;
+    transition: 0.5s;
+}
+
+.principaldiv{
+    height: 100%;
+    width: 100%;
+    background-color: #0B9BDA;
+}
+
+p{
+    display: flex;
+    width: 50%;
+    font-size: small;
+    text-align: center;
+}
+
+.margin15px{
+    margin: 15px;
+}
+
+.width100prc{
+    width: 100%;
+}
+
+.justify{
+    text-align: justify;
+}
