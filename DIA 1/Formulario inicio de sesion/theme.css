@@ -71,10 +71,7 @@
 }
 
 p{
-    display: flex;
-    width: 50%;
     font-size: small;
-    text-align: center;
 }
 
 .margin15px{
@@ -85,6 +82,8 @@ p{
     width: 100%;
 }
 
-.justify{
-    text-align: justify;
+.text-center{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
 }
